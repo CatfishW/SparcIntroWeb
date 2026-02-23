@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Hi there! I'm your AI Peer Agent. Welcome to the SPARC project. Are you ready to explore how we use systematic problem solving to understand the world?",
+      "options": [
+        { "label": "Yes, let's go!", "nextId": "what_is_sparc" },
+        { "label": "What does SPARC stand for?", "nextId": "acronym_explanation" }
+      ],
+      "voiceFile": "audio/start.wav"
+    },
+    {
+      "id": "acronym_explanation",
+      "text": "SPARC stands for Systematic Problem Solving and Algorithmic Reasoning for Children. It's a way to learn how to think like a scientist and a programmer at the same time!",
+      "options": [
+        { "label": "Sounds cool! Tell me more.", "nextId": "what_is_sparc" }
+      ],
+      "voiceFile": "audio/acronym_explanation.wav"
+    },
+    {
+      "id": "what_is_sparc",
+      "text": "In SPARC, we use AI agents and simulations to solve complex problems. What would you like to dive into first?",
+      "options": [
+        { "label": "Learn about AI agents", "nextId": "ai_agents" },
+        { "label": "The human body simulation", "nextId": "human_body" },
+        { "label": "What is algorithmic reasoning?", "nextId": "algorithmic_reasoning" }
+      ],
+      "voiceFile": "audio/what_is_sparc.wav"
+    },
+    {
+      "id": "ai_agents",
+      "text": "AI Peer Agents are like digital teammates. We don't just give you answers; we work with you to figure things out. We can even simulate different personalities!",
+      "options": [
+        { "label": "How do you help me learn?", "nextId": "how_agents_help" },
+        { "label": "Tell me about the body instead", "nextId": "human_body" }
+      ],
+      "voiceFile": "audio/ai_agents.wav"
+    },
+    {
+      "id": "how_agents_help",
+      "text": "We help by breaking down big problems into smaller, manageable steps. It's like having a friend who's really good at organizing their thoughts!",
+      "options": [
+        { "label": "That makes sense. What about the body?", "nextId": "human_body" },
+        { "label": "Let's talk about reasoning", "nextId": "algorithmic_reasoning" }
+      ],
+      "voiceFile": "audio/how_agents_help.wav"
+    },
+    {
+      "id": "human_body",
+      "text": "We've built a detailed simulation of the human body. You can see how blood flows, how oxygen moves, and how different systems interact like a giant machine.",
+      "options": [
+        { "label": "Why simulate the body?", "nextId": "why_body" },
+        { "label": "Show me the reasoning part", "nextId": "algorithmic_reasoning" }
+      ],
+      "voiceFile": "audio/human_body.wav"
+    },
+    {
+      "id": "why_body",
+      "text": "The human body is the ultimate example of a complex system. By treating biological processes as algorithms, we can understand how health and disease work in a whole new way.",
+      "options": [
+        { "label": "Algorithms in the body?", "nextId": "body_algorithms" },
+        { "label": "Back to the main menu", "nextId": "what_is_sparc" }
+      ],
+      "voiceFile": "audio/why_body.wav"
+    },
+    {
+      "id": "body_algorithms",
+      "text": "Exactly! Think of your heartbeat or your digestion as a set of instructions. If we can map those instructions, we can predict what happens when something changes.",
+      "options": [
+        { "label": "That's fascinating!", "nextId": "algorithmic_reasoning" },
+        { "label": "Tell me about AI agents again", "nextId": "ai_agents" }
+      ],
+      "voiceFile": "audio/body_algorithms.wav"
+    },
+    {
+      "id": "algorithmic_reasoning",
+      "text": "Algorithmic reasoning is just a fancy way of saying 'step-by-step thinking'. It's about finding patterns and creating rules to solve any problem, not just math!",
+      "options": [
+        { "label": "Can you give me an example?", "nextId": "examples_reasoning" },
+        { "label": "How does AI use this?", "nextId": "ai_reasoning" }
+      ],
+      "voiceFile": "audio/algorithmic_reasoning.wav"
+    },
+    {
+      "id": "examples_reasoning",
+      "text": "Sure! Making a peanut butter sandwich is an algorithm. You have to follow the steps in order, or you'll end up with a mess. We apply that same logic to science!",
+      "options": [
+        { "label": "I get it now!", "nextId": "deep_dive" },
+        { "label": "Wait, how does AI do it?", "nextId": "ai_reasoning" }
+      ],
+      "voiceFile": "audio/examples_reasoning.wav"
+    },
+    {
+      "id": "ai_reasoning",
+      "text": "AI uses these algorithms to process huge amounts of data. By teaching you these skills, you can understand how AI thinks and even build your own models one day.",
+      "options": [
+        { "label": "I want to learn that!", "nextId": "deep_dive" },
+        { "label": "Let's go back to the body", "nextId": "human_body" }
+      ],
+      "voiceFile": "audio/ai_reasoning.wav"
+    },
+    {
+      "id": "deep_dive",
+      "text": "You're doing great! SPARC is all about empowering you to be a creator, not just a user of technology. Ready to see what's next?",
+      "options": [
+        { "label": "What's the future of SPARC?", "nextId": "future" },
+        { "label": "I'm ready to start!", "nextId": "get_started" }
+      ],
+      "voiceFile": "audio/deep_dive.wav"
+    },
+    {
+      "id": "future",
+      "text": "We're expanding to include more simulations—like space exploration and environmental science. The possibilities are endless when you have the right tools to think!",
+      "options": [
+        { "label": "Let's get started then!", "nextId": "get_started" }
+      ],
+      "voiceFile": "audio/future.wav"
+    },
+    {
+      "id": "get_started",
+      "text": "Awesome! Let's jump into the bloodstream simulation and see if we can help our patient. I'll be right here if you need anything.",
+      "options": [],
+      "voiceFile": "audio/get_started.wav"
+    }
+  ]
+}
